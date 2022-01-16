@@ -8,12 +8,11 @@ CXXFLAGS = -std=c++11 -Wall -lpthread -O3 -Isrc/3rd/include/
 LDFLAGS =
 
 # Makefile settings - Can be customized.
-LOCAL_PATH:=$(shell pwd)
 APPNAME = app #!TODO: Modify here
 EXT = .cpp
 SRCDIR = src
 OBJDIR = obj
-#/home/ohtoai/workspace/CROSS_PLATFORM_CPP_PROJECT_TEMPLATE
+
 ############## Do not change anything from here downwards! #############
 SRC = $(wildcard $(SRCDIR)/*$(EXT))
 OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
