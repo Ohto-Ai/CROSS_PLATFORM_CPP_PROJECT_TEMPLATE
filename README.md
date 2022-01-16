@@ -4,7 +4,7 @@
 [issues]: https://github.com/Ohto-Ai/CROSS_PLATFORM_CPP_PROJECT_TEMPLATE/issues
 [stargazers]: https://github.com/Ohto-Ai/CROSS_PLATFORM_CPP_PROJECT_TEMPLATE/stargazers
 [pulls]: https://github.com/Ohto-Ai/CROSS_PLATFORM_CPP_PROJECT_TEMPLATE/pulls
-[commit-activity]: https://github.com/badges/shields/pulse
+[commit-activity]: https://github.com/Ohto-Ai/CROSS_PLATFORM_CPP_PROJECT_TEMPLATE/pulse
 [contributors]: https://github.com/Ohto-Ai/CROSS_PLATFORM_CPP_PROJECT_TEMPLATE/contributors
 [use-this]: https://github.com/Ohto-Ai/CROSS_PLATFORM_CPP_PROJECT_TEMPLATE/generate
 [circleci:badge]: https://img.shields.io/circleci/project/github/Ohto-Ai/CROSS_PLATFORM_CPP_PROJECT_TEMPLATE/master
