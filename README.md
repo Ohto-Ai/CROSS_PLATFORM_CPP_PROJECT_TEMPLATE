@@ -23,7 +23,9 @@
 [![Pulls][pulls:badge]][pulls]  
 [![Contributors][contributors:badge]][contributors]
 [![Commit Activity][commit-activity:badge]][commit-activity]  
+<!-- remove me before use it -->
 [![Use This][use-this:badge]][use-this]
+<!-- remove me before use it -->
 
 ***CROSS_PLATFORM_CPP_PROJECT_TEMPLATE is used to make C++ cross platform projects. Please modify the template content before use.***
 
