@@ -18,11 +18,11 @@
 [repository]: https://github.com/Ohto-Ai/CROSS_PLATFORM_CPP_PROJECT_TEMPLATE
 
 [![License][license:badge]](/LICENSE)
-[![Issues][issues:badge]][issues]
+[![Issues][issues:badge]][issues]  
 [![Stargazers][stargazers:badge]][stargazers]
-[![Pulls][pulls:badge]][pulls]
+[![Pulls][pulls:badge]][pulls]  
 [![Contributors][contributors:badge]][contributors]
-[![Commit Activity][commit-activity:badge]][commit-activity]
+[![Commit Activity][commit-activity:badge]][commit-activity]  
 [![Use This][use-this:badge]][use-this]
 
 ***CROSS_PLATFORM_CPP_PROJECT_TEMPLATE is used to make C++ cross platform projects. Please modify the template content before use.***
