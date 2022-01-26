@@ -25,11 +25,17 @@ DEL = del
 EXE = .exe
 WDELOBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)\\%.o)
 
+REPONAME=`git remote -v | grep -Po "(?<=/)[a-zA-Z0-9\\._-]+?(?=((\\.git)? \\(fetch\\)))"`
+
 ########################################################################
 ####################### Targets beginning here #########################
 ########################################################################
 
 all: $(APPNAME)
+
+init-repo: .git/
+	@sed -i "s?CROSS_PLATFORM_CPP_PROJECT_TEMPLATE?$(REPONAME)?g" README.md
+	$(info init repo done.)
 
 # Builds the app
 $(APPNAME): $(OBJ)

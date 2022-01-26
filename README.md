@@ -40,6 +40,19 @@
 
 ## Installation
 
+### Install this TEMPLATE
+1. Click [`USE THIS TEPLATE`][use-this]
+2. Clone your repo to local
+```bash
+git clone git@github.com:<YOUR_NAME>/<YOUR_REPO>
+```
+3. Init the repo
+```bash
+make init-repo
+# init repo name in README.md
+```
+
+### Install Application
 *macOS 10.10+, Linux, and Windows 7+ are supported (64-bit only).*
 
 **macOS**
