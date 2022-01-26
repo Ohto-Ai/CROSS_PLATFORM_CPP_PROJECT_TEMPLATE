@@ -4,8 +4,8 @@
 
 # Compiler settings - Can be customized.
 CC = g++
-CXXFLAGS = -std=c++11 -Wall -lpthread -O3 -Isrc/3rd/include/
-LDFLAGS =
+CXXFLAGS = -std=c++11 -Wall -O3 -Isrc/3rd/include/
+LDFLAGS = -lpthread
 
 # Makefile settings - Can be customized.
 APPNAME = app #!TODO: Modify here
