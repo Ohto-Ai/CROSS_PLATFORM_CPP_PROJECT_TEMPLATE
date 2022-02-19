@@ -34,7 +34,7 @@ REPONAME=`git remote -v | grep -Po "(?<=/)[a-zA-Z0-9\\._-]+?(?=((\\.git)? \\(fet
 all: $(APPNAME)
 
 init-repo: .git/
-	@sed -i "s?CROSS_PLATFORM_CPP_PROJECT_TEMPLATE?$(REPONAME)?g" README.md
+	@sed -i "s?Ohto-Ai/CROSS_PLATFORM_CPP_PROJECT_TEMPLATE?$(USERNAME_REPONAME)?g" README.md
 	$(info init repo done.)
 
 # Builds the app
