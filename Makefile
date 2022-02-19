@@ -25,7 +25,7 @@ DEL = del
 EXE = .exe
 WDELOBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)\\%.o)
 
-REPONAME=`git remote -v | grep -Po "(?<=/)[a-zA-Z0-9\\._-]+?(?=((\\.git)? \\(fetch\\)))"`
+USERNAME_REPONAME=`git remote -v | grep -Po "(?<=:)[a-zA-Z0-9\\._/-]+?(?=((\\.git)? \\(fetch\\)))"`
 
 ########################################################################
 ####################### Targets beginning here #########################
